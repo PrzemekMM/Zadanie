@@ -1,8 +1,8 @@
 $splash-text: #ffffff;
 $golden: #fed136;
 $black: #222222;
-$light: #cac7c7;
-$title-galery: #333333;
+$light: rgb(202, 199, 199);
+$title-galery: hsl(0, 0%, 35%);
 
 .container {
     max-width: 1140px;
@@ -142,6 +142,57 @@ h3 {
         line-height: 50px;
         border: 3px solid $golden;
         border-radius: 50%;
+    }
+
+}
+.galery {
+    background: $light;
+
+    h2 {
+        text-align: center;
+        color: $black;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 75px;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: normal;
+        letter-spacing: -1px;
+        line-height: normal;
+    }
+
+    h3 {
+        text-align: center;
+        color: $black;
+        font-family: "Droid Serif";
+        font-size: 16px;
+        font-weight: undefined;
+        font-style: italic;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+    }
+    p {
+        color: $title-galery;
+        font-family: "Droid Serif";
+        font-size: 14px;
+        font-style: italic;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+    }
+    h5 {
+        color: $title-galery;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
     }
 
 }
