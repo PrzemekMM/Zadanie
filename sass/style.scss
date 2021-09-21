@@ -1,0 +1,74 @@
+$splash-text: #ffffff;
+$golden: #fed136;
+$black: #222222;
+$light: #cac7c7;
+$title-galery: #333333;
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.splash {
+    background-image: url("/images/background2.png");
+    height: 70vh;
+    max-width: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+
+    .splash-inner {
+        position: relative;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        color: $splash-text;
+        font-family: "Droid Serif";
+        font-size: 40px;
+        font-weight: undefined;
+        font-style: italic;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+    }
+
+    h1 {
+        color: $splash-text;
+        font-family: Montserrat;
+        font-size: 75px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .navbar-light .navbar-brand {
+        color: $splash-text;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 41px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-right: 30px;
+
+    }
+
+    .btn {
+        width: 240px;
+        height: 68px;
+        background-color: $golden;
+
+
+    }
+}
