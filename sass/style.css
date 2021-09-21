@@ -63,3 +63,73 @@
   height: 68px;
   background-color: #fed136;
 }
+
+h2 {
+  text-align: center;
+  color: #222222;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 75px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: -1px;
+  line-height: normal;
+}
+
+h3 {
+  text-align: center;
+  color: #cac7c7;
+  font-family: "Droid Serif";
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  border: none;
+}
+
+.card .card-text {
+  color: #333333;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: -0.35px;
+  line-height: normal;
+}
+
+.card .card-title {
+  color: #222222;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 75px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: -0.45px;
+  line-height: normal;
+}
+
+.card .fas {
+  font-size: 40px;
+  width: 68px;
+  height: 55px;
+  color: #fed136;
+  line-height: 50px;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+}

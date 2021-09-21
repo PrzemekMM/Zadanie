@@ -72,3 +72,76 @@ $title-galery: #333333;
 
     }
 }
+h2 {
+    text-align: center;
+    color: $black;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: -1px;
+    line-height: normal;
+}
+
+h3 {
+    text-align: center;
+    color: $light;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    border: none;
+
+    .card-text {
+
+        color: $title-galery;
+        font-family: "Roboto Slab";
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+
+        font-style: normal;
+        letter-spacing: -0.35px;
+        line-height: normal;
+    }
+
+    .card-title {
+        color: $black;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 75px;
+        text-align: center;
+        font-style: normal;
+        letter-spacing: -0.45px;
+        line-height: normal;
+
+    }
+
+    .fas {
+        font-size: 40px;
+        width: 68px;
+        height: 55px;
+        color: $golden;
+        line-height: 50px;
+        border: 3px solid $golden;
+        border-radius: 50%;
+    }
+
+}
